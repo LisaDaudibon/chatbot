@@ -30,5 +30,5 @@ response_body = JSON.parse(response.body.to_s)
 response_string = response_body['choices'][0]['text'].strip
 
 # ligne qui permet d'envoyer l'information sur ton terminal
-puts "Voici 5 parfums de glace :"
+puts "Voici 5 parfums de glace que vous avez demandé :"
 puts response_string
